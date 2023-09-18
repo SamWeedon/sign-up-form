@@ -5,6 +5,7 @@
 body {
     display: flex;
     margin: 0;
+    font-family: 'Exo', sans-serif;
 }
 
 .left-side {
@@ -29,7 +30,6 @@ body {
     background-color: rgb(0,0,0,0.3);
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Exo', sans-serif;
     color: white;
     font-size: 40px;
 }
@@ -54,13 +54,53 @@ body {
 
 .right-top {
     background-color: rgb(240, 234, 234);
-    height: 40%;
+    height: 30%;
 }
 
 .right-middle {
     height: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 4px #c3c5ca;
+}
+
+.right-middle p {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+input {
+    border: 0.5px solid #E5E7EB;
+    border-radius: 4px;
+    margin-right: 60px;
+    font-size: 16px;
+    padding: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: 0.5px solid blue;
+    box-shadow: 2px 2px #c3c5ca;
 }
 
 .right-bottom {
-    height: 20%;
+    height: 30%;
 }
