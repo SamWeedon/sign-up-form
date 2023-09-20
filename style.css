@@ -69,8 +69,6 @@ body {
 
 .right-middle {
     height: 40%;
-    
-    box-shadow: 0px 4px #c3c5ca;
     box-sizing: border-box;
     padding-left: 50px;
     padding-top: 20px;
@@ -79,7 +77,6 @@ body {
 .right-middle p {
     margin-top: 0px;
     font-weight: bold;
-    
     box-sizing: border-box;
 }
 
@@ -124,4 +121,26 @@ input:focus {
 
 .right-bottom {
     height: 30%;
+}
+
+button {
+    background-color: rgb(240, 240, 16);
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0.5px 0.5px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.right-bottom p {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.right-bottom a {
+    color: blue;
+    font-weight: bold;
 }

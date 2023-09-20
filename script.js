@@ -7,7 +7,7 @@ function checkPassword(event) {
     if (pass1.value !== pass2.value) {
         pass1.classList.add('error');
         pass2.classList.add('error');
-        errorMessage.textContent = '* Passwords do not match'
+        errorMessage.textContent = '* Passwords do not match';
         event.preventDefault(); // prevents form submission
     }
     else {
