@@ -108,6 +108,10 @@ input {
     padding: 4px;
 }
 
+input.error {
+    border: 0.5px solid red;
+}
+
 input:focus {
     outline: none;
     border: 0.5px solid blue;
