@@ -2,17 +2,13 @@
 
 ## A practical demonstration of HTML forms and CSS styling
 
-Intro Paragraph
+This project makes use of HTML forms and CSS to create a basic sign up form. I also wrote some JavaScript to implement 
+a password confirmation feature. 
 
-Visual Helper
+![Alt text](image.png)
 
-User Instructions
-
-Developer Instructions
-
-Expectations for contributors
-
-Known Issues/Bugs
+This project still has some issues with visual overlap when the window is resized. I may come back and address these issues in the future, although for now
+it is not a priority.
 
 ### Credits
 
